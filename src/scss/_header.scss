@@ -1,0 +1,16 @@
+.header-bg {
+  background: #000000;
+
+  .header {
+    padding: 1.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+      display: flex;
+      gap: 1.5rem;
+    }
+  }
+}
