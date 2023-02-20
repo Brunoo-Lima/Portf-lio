@@ -1,0 +1,44 @@
+.skills-bg {
+  background: #000000;
+  padding-top: 120px;
+  padding-bottom: 80px;
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .skills-informations {
+      h1 {
+        font-size: 3rem;
+        color: #fff;
+      }
+    }
+
+    .skills-list {
+      padding-top: 2rem;
+      
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+
+        li {
+          background-color: #111111;
+          padding: 2rem;
+          border: 1px solid transparent;
+          border-radius: 4px;
+
+          &:hover {
+            border: 1px solid #FAB30F;
+            transition: .4s;
+          }
+
+          img {
+            max-width: fit-content;
+          }
+        }
+      }
+    }
+  }
+}
