@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
 
-    .logo-name {
+    h1 {
       font-size: 2rem;
       padding: 0 1.2rem;
       position: relative;
@@ -17,11 +17,11 @@
       &::before {
         content:'';
         width: 4px;
-        height: 27px;
+        height: 30px;
         display: inline-block;
         position: absolute;
         margin-left: -12px;
-        top: 6px;
+        top: 9px;
         background: linear-gradient(-45deg,#ffffff 30% 50% , #1eff00 50% 20%);
       }
     }

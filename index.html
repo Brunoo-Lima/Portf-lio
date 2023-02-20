@@ -6,30 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
   <link rel="stylesheet" href="./src/scss/css/style.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header class="header-bg">
     <div class="container header">
-      <h1 class="logo-name">Bruno Lima</h1>
+      <h1 class="font-title">Bruno Lima</h1>
 
       <nav aria-label="primaria">
         <ul class="menu" >
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="/">Quem sou</a></li>
-          <li><a href="#skills">Conhecimentos</a></li>
-          <li><a href="/">Projetos</a></li>
+          <li><a class="font-p" href="#inicio">Início</a></li>
+          <li><a class="font-p" href="/">Quem sou</a></li>
+          <li><a class="font-p" href="#skills">Conhecimentos</a></li>
+          <li><a class="font-p" href="/">Projetos</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="home-bg" id="inicio">
+  <section class="home-bg" id="inicio" aria-label="inicio">
     <div class="container home">
         <div class="home-content">
-        <h1>Construindo Pages e Interfaces</h1>
-        <p>Entre em contato: </p>
-        <span><a href="mailto:bruno@gmail.com">bruno@gmail.com</a></span>
+        <h1 class="font-title">Construindo Pages e Interfaces</h1>
+        <p class="font-p">Entre em contato: </p>
+        <span class="font-p"><a href="mailto:bruno@gmail.com">bruno@gmail.com</a></span>
       </div>
       
       <div class="home-img">
@@ -38,31 +42,31 @@
     </div>
   </section>
 
-  <section class="skills-bg" id="skills">
+  <section class="skills-bg" id="skills" aria-label="conhecimentos">
     <div class="container skills">
       <div class="skills-informations">
-        <h1>Conhecimentos</h1>
+        <h1 class="font-title">Conhecimentos<span>.</span></h1>
       </div>
 
       <div class="skills-list">
         <ul>
           <li>
-            <img src="./src/img/icon/html.svg" width="60" height="60" alt="">
+            <img src="./src/img/icon/html.svg" width="60" height="60" alt="icone html">
           </li>
           <li>
-            <img src="./src/img/icon/css.svg" width="60" height="60" alt=""> 
+            <img src="./src/img/icon/css.svg" width="60" height="60" alt="icone css"> 
           </li>
           <li>
-            <img src="./src/img/icon/javascript.svg" width="60" height="60" alt="">
+            <img src="./src/img/icon/javascript.svg" width="60" height="60" alt="icone javascript">
           </li>
           <li>
-            <img src="./src/img/icon/sass.svg" width="60" height="60" alt="">
+            <img src="./src/img/icon/sass.svg" width="60" height="60" alt="icone sass">
           </li>
           <li>
-            <img src="./src/img/icon/figma.svg" width="60" height="60" alt="">
+            <img src="./src/img/icon/figma.svg" width="60" height="60" alt="icone figma">
           </li>
           <li>
-            <img src="./src/img/icon/java.svg" width="60" height="60" alt="">
+            <img src="./src/img/icon/java.svg" width="60" height="60" alt="icone java">
           </li>
         </ul>
       </div>
