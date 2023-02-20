@@ -1,5 +1,6 @@
 .home-bg {
   background: $color2;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.404);
   padding-top: 5rem;
   padding-bottom: 7.5rem;
 
@@ -9,7 +10,7 @@
 
     .home-content {
       align-self: center;
-      max-width: 55ch;
+      max-width: 60ch;
       
       h1 {
         padding-bottom: 40px;

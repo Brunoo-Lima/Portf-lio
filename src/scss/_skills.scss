@@ -1,13 +1,14 @@
 .skills-bg {
   background: #000000;
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 80px;
 
   .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 
-    .skills-informations {
+    h1 {
+      padding-bottom: 50px;
     }
 
     .skills-list {
@@ -15,7 +16,8 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 20px;
+        justify-content: center;
+        gap: 40px;
 
         li {
           background-color: #111111;

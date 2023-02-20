@@ -14,14 +14,21 @@
       position: relative;
 
       &::before {
-        content:'';
+        content:'<';
         width: 4px;
         height: 30px;
         display: inline-block;
         position: absolute;
-        margin-left: -12px;
-        top: 4px;
-        background: linear-gradient(-45deg,#ffffff 30% 50% , #1eff00 50% 20%);
+        margin-left: -16px;
+      }
+
+      &::after {
+        content:'>';
+        width: 4px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        margin-right: -16px;
       }
     }
 

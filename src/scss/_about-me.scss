@@ -1,0 +1,62 @@
+.aboutMe-bg {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .history {
+      grid-column: 2;
+      background: $color2;
+      padding: 2rem;
+      border-radius: 4px;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.404);
+
+      h2 {
+        padding-bottom: 5px;
+      }
+
+      h3 {
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        &::before {
+          content: '';
+          width: 12px;
+          height: 6px;
+          display: inline-block;
+          margin-right: 4px;
+          background: #FAB30F;
+        }
+      }
+
+      p {
+        line-height: 1.4;
+        max-width: 50ch;
+        padding-bottom: 20px;
+      }
+
+      .links {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+
+        a {
+          display: block;
+          background-color: $color1;
+          padding: .5rem;
+          border-radius: 4px;
+          border: 1px solid transparent;
+          transition: .4s;
+
+          &:hover {
+            border: 1px solid #FAB30F;
+          }
+        }
+      }
+    }
+  }
+}
