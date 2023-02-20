@@ -2,10 +2,9 @@ $fontPrimary: "Poppins", sans-serif;
 $fontSecundary: "Roboto", sans-serif;
 
 .font-title {
-  font-family: $fontPrimary;
+  font: bold 3rem/1.2 $fontPrimary;
 }
 
 .font-p {
-  font-family: $fontSecundary;
-  
+  font: 400 1.2rem/1.2 $fontSecundary;
 }
