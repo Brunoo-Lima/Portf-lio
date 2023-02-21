@@ -16,9 +16,10 @@
 
     @media(max-width: 800px){
       flex-wrap: wrap;
+      gap: 20px;
 
-      p {
-        padding-bottom: 20px;
+      & + p {
+        padding-bottom: 5px;
       }
     }
   }

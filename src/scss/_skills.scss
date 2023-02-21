@@ -9,6 +9,10 @@
 
     h1 {
       padding-bottom: 50px;
+
+      @media(max-width: 400px) {
+        font-size: 2rem;
+      }
     }
 
     .skills-list {
@@ -18,6 +22,15 @@
         align-items: center;
         justify-content: center;
         gap: 40px;
+
+        @media(max-width: 1200px) {
+          gap: 20px;
+          justify-content: start;
+        }
+
+        @media(max-width: 800px) {
+          gap: 20px;
+        }
 
         li {
           background-color: #111111;
