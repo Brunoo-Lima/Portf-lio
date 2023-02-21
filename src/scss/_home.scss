@@ -4,16 +4,28 @@
   padding-top: 5rem;
   padding-bottom: 7.5rem;
 
+  @media(max-width: 400px) {
+    padding-bottom: 5rem;
+  }
+
   .home {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+    @media(max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
+
     .home-content {
       align-self: center;
       max-width: 60ch;
-      
+
       h1 {
         padding-bottom: 40px;
+
+        @media(max-width: 400px) {
+          font-size: 2.5rem;
+        }
       }
 
       p {
@@ -21,8 +33,16 @@
       }
 
       a {
-        display: block;
+        display: inline-block;
         letter-spacing: 1px;
+      }
+    }
+
+    .home-img {
+      img {
+        @media(max-width: 800px) {
+          display: none;
+        }
       }
     }
   }

@@ -32,6 +32,10 @@
           gap: 20px;
         }
 
+        @media(max-width: 400px) {
+          justify-content: center;
+        }
+
         li {
           background-color: #111111;
           padding: 2rem;
