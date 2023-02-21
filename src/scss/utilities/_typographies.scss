@@ -9,6 +9,11 @@ $fontSecundary: "Roboto", sans-serif;
   font: 600 1.8rem/1.2 $fontPrimary;
 }
 
-.font-p {
+.font-p, .font-p-bold {
   font: 400 1.2rem/1.2 $fontSecundary;
+}
+
+.font-p-bold {
+  font-size: 1rem;
+  font-weight: bold;
 }
