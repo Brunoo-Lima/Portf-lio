@@ -13,7 +13,11 @@ $fontSecundary: "Roboto", sans-serif;
   font: 400 1.2rem/1.2 $fontSecundary;
 }
 
+.font-pp {
+  font: 400 1rem/1.2 $fontSecundary;
+}
+
 .font-p-bold {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 500;
 }
