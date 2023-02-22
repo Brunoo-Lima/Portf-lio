@@ -1,11 +1,11 @@
 .footer-bg{
   background: $color1;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 
   @media(max-width: 800px){
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   
   }
 
@@ -16,10 +16,10 @@
 
     @media(max-width: 800px){
       flex-wrap: wrap;
-      gap: 20px;
+      gap: 1.25rem;
 
       & + p {
-        padding-bottom: 5px;
+        padding-bottom: 0.3125rem;
       }
     }
   }

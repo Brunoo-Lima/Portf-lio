@@ -1,6 +1,6 @@
 .aboutMe-bg {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
   .about-me {
     display: grid;
@@ -12,7 +12,7 @@
 
     h1 {
       @media(max-width: 800px) {
-        padding-bottom: 40px;
+        padding-bottom: 2.5rem;
        }
 
        @media(max-width: 400px) {
@@ -32,7 +32,7 @@
       }
 
       h2 {
-        padding-bottom: 5px;
+        padding-bottom: 0.3125rem;
 
         @media(max-width: 400px) {
           font-size: 1.5rem;
@@ -40,7 +40,7 @@
       }
 
       h3 {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
         display: flex;
         align-items: center;
 
@@ -57,14 +57,14 @@
       p {
         line-height: 1.4;
         max-width: 50ch;
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
       }
 
       .links {
         display: flex;
         align-items: center;
         justify-content: start;
-        gap: 10px;
+        gap: 0.625rem;
 
         a {
           display: block;

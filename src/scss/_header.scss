@@ -1,7 +1,7 @@
 .header-bg {
   background: $color1;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 
   .header {
     display: flex;
@@ -44,7 +44,7 @@
         border-radius: 4px;
         z-index: 200;
         top: 20px;
-        padding: 50px 0 10px 10px;
+        padding: 3.125rem 0 0.625rem 0.625rem;
         box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
       
        &.active {
@@ -71,7 +71,7 @@
           text-decoration: none;
 
           @media(max-width: 800px) {
-            padding: 5px;
+            padding: 0.3125rem;
           }
      
           &:hover {
