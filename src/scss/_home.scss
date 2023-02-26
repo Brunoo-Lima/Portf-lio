@@ -1,10 +1,11 @@
 .home-bg {
   background: $color2;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.404);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 9rem;
+  padding-bottom: 7rem;
 
-  @media(max-width: 400px) {
+  @media (max-width: 400px) {
+    padding-top: 7rem;
     padding-bottom: 5rem;
   }
 
@@ -12,7 +13,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    @media(max-width: 800px) {
+    @media (max-width: 800px) {
       grid-template-columns: 1fr;
     }
 
@@ -23,7 +24,7 @@
       h1 {
         padding-bottom: 40px;
 
-        @media(max-width: 400px) {
+        @media (max-width: 400px) {
           font-size: 2.5rem;
         }
       }
@@ -39,16 +40,17 @@
         background: $color-p2;
         border-radius: 4px;
         padding: 0.3125rem 0.9375rem;
+        transition: 0.5s;
 
         &:hover {
-          background: linear-gradient(45deg, #00000050, $color-p2, #00000050);
+          padding: 0.3125rem 1.5rem;
         }
       }
     }
 
     .home-img {
       img {
-        @media(max-width: 800px) {
+        @media (max-width: 800px) {
           display: none;
         }
       }
