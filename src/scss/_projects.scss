@@ -6,15 +6,19 @@
   .projects {
     h1 {
       padding-bottom: 2.5rem;
+
+      @media (max-width: 400px) {
+        font-size: 2rem;
+      }
     }
-    
+
     .my-projects {
       display: grid;
-      grid-template-columns:  minmax(200px, 400px) minmax(200px, 400px);
+      grid-template-columns: minmax(200px, 400px) minmax(200px, 400px);
       justify-content: center;
       gap: 1.25rem;
 
-      @media(max-width: 900px) {
+      @media (max-width: 900px) {
         grid-template-columns: minmax(200px, 400px);
       }
 
@@ -26,13 +30,17 @@
         h2 {
           padding-bottom: 1.25rem;
           font-size: 1.5rem;
+
+          @media (max-width: 400px) {
+            font-size: 1.2rem;
+          }
         }
 
         p {
           padding-bottom: 1.25rem;
           max-width: 60ch;
         }
-  
+
         span {
           display: flex;
           justify-content: center;
@@ -42,7 +50,7 @@
             text-decoration: none;
             padding: 0.625rem;
             border-radius: 4px;
-            transition: .5s;
+            transition: 0.5s;
 
             &::after {
               content: '';
@@ -50,7 +58,7 @@
               height: 1px;
               display: block;
               background: currentColor;
-              transition: .4s;
+              transition: 0.4s;
             }
 
             &:hover::after {
