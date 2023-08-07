@@ -5,8 +5,9 @@ $color3: #0e21cf;
 
 //texto
 $color-p1: #ffffff;
-$color-p2: #FAB30F;
+$color-p2: #fab30f;
 $color-p3: #c2c2c2;
+$color-p4: #ff0000;
 
 .color-1 {
   color: $color1;
@@ -32,10 +33,18 @@ $color-p3: #c2c2c2;
   color: $color-p3;
 }
 
+.color-p4 {
+  color: $color-p4;
+}
+
 .border-p {
   border: 1px solid $color3;
 }
 
 .border-p2 {
   border: 1px solid $color-p2;
+}
+
+.border-p3 {
+  border: 1px solid $color-p4;
 }
