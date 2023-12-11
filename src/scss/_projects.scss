@@ -6,10 +6,6 @@
   .projects {
     h1 {
       padding-bottom: 2.5rem;
-
-      @media (max-width: 400px) {
-        font-size: 2rem;
-      }
     }
 
     .my-projects {
@@ -28,6 +24,10 @@
 
       @media (max-width: 600px) {
         grid-template-columns: 400px;
+      }
+
+      @media (max-width: 500px) {
+        grid-template-columns: 320px;
       }
 
       .project-card {

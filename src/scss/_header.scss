@@ -12,7 +12,6 @@
     align-items: center;
 
     h1 {
-      font-size: 2rem;
       padding: 0 1.2rem;
       position: relative;
 
@@ -50,6 +49,7 @@
         background: $color-p2;
         border-radius: 4px;
         z-index: 200;
+        margin: -5px 5px;
         right: 0;
         top: 20px;
         padding: 3.125rem 0.625rem 0.625rem 0.625rem;
@@ -59,6 +59,10 @@
           display: block;
           animation: show-right 0.3s forwards;
         }
+      }
+
+      @media (max-width: 600px) {
+        padding: 3rem 0.5rem 0.5rem 0.5rem;
       }
 
       li {
